@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(./img/dtla-fireworks-815196246-d3baab0f87914943a1f73374c0081f8e.jpg);
+    background-size: cover;
+    min-height: 100VH;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 6rem;
+    background: -webkit-linear-gradient(#eee, rgb(40, 164, 168));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* text-decoration-color: linear-gradient(rgb(18, 19, 20),rgb(173, 42, 42)) */
+}
+.container{
+    display:flex;
+    gap: 25px;
+    /* font-size: rem; */
+    color: rgb(240, 229, 229);
+    padding-right: 10px
+}
+.container__text > p{
+    text-align: center;
+    font-size: 5rem;
+    background: -webkit-linear-gradient(#eee, rgb(40, 164, 168));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container__text > span{
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#eee, rgb(40, 164, 168));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
